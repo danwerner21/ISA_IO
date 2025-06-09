@@ -1,0 +1,114 @@
+
+(rules PCB MULTIIO
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 6497)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.6)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.6)
+    )
+  )
+  (rule
+    (width 200.0)
+    (clear 200.0)
+    (clear 100.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd-smd))
+  )
+  (padstack "Via[0-1]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" default
+  )
+  (via 
+    "Via[0-1]_600:300_um-kicad_default" "Via[0-1]_600:300_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:300_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "B_A7" "B_A14" "unconnected-(J1-DRQ1-Pad18)" "unconnected-(J1-~{DACK0}-Pad19)" /Printer/PD0 /Printer/PD1 BUSCLK "B_A15"
+    "B_A5" "B_A3" /Printer/PD2 /Printer/PD3 "B_D6" /Printer/~{STROBE} "unconnected-(J1-~{DACK3}-Pad15)" "B_A8"
+    "unconnected-(J1-DRQ3-Pad16)" /Printer/PD4 "B_D5" "B_A2" /Printer/PD5 "B_IOW" "unconnected-(J1-~{DACK1}-Pad17)" "B_A16"
+    "B_A17" "B_A6" "B_D2" /Printer/PD6 /Printer/PD7 "unconnected-(J1-UNUSED-Pad8)" "B_A18" "B_SMEMW"
+    BUSALE 470A "B_A11" "B_A4" "B_A19" {slash}AEN "B_SMEMR" "unconnected-(J1-DRQ2-Pad6)"
+    "B_A1" "Net-(D1-K)" "B_D7" "unconnected-(J1-IO_READY-Pad41)" TC "B_D4" "B_D0" "B_A9"
+    "B_A0" "B_D1" "B_IOR" "B_A13" "B_A12" "Net-(D2-K)" "B_D3" "B_A10"
+    "unconnected-(J1-~{DACK2}-Pad26)" 470G 470H "Net-(D3-K)" "Net-(D4-K)" 470B "Net-(D5-K)" 470F
+    "Net-(D6-K)" 470C ~{RESET} IRQ4 IRQ6 "B_~{NMI}" "B_CLK" IRQ7
+    "unconnected-(J1-+12V-Pad9)" "unconnected-(J1--12V-Pad7)" IRQ3 IRQ5 IRQ2 "unconnected-(J1--5V-Pad5)" "INT_KM" "unconnected-(J3-Pad2)"
+    /Keyboard/MSEDAT "unconnected-(J3-Pad6)" /Keyboard/MSECLK /Keyboard/KBDCLK "unconnected-(J4-Pad6)" /Keyboard/KBDDAT "unconnected-(J4-Pad2)" "INT_PAR"
+    "Net-(J6-Pin_1)" SERSRQ SERCLKIN SERDATAIN "Net-(J7-Pad3)" "Net-(U11-EA)" /Printer/~{SEL} /Printer/STATUS0
+    /Printer/PAPEROUT "/Printer/P-RESET" /Printer/SELECT /Printer/ERROR /Printer/~{BUSY} ACK /Printer/~{LINEFEED} "Net-(U13-O0)"
+    "Net-(U13-O2)" "Net-(U13-O4)" "Net-(U13-O6)" "Net-(U13-O1)" "Net-(U13-O3)" "Net-(U13-O5)" "Net-(U13-O7)" "Net-(R9-Pad2)"
+    470E 470D "VIA1_INT" "Net-(RN2-R7)" "Net-(RN2-R8)" "Net-(RN2-R5)" "Net-(RN2-R4)" "Net-(RN2-R6)"
+    "unconnected-(RN2-R1-Pad2)" "unconnected-(RN2-R2-Pad3)" "unconnected-(RN3-R8-Pad9)" "unconnected-(RN3-R7-Pad8)" "unconnected-(RN3-R6-Pad7)" /Keyboard/PROG "unconnected-(RN4-R6-Pad7)" "unconnected-(RN4-R7-Pad8)"
+    /Printer/BUSY "unconnected-(RN4-R8-Pad9)" "~{CS_PAR}" "unconnected-(U1-Pad12)" "unconnected-(U1-Pad11)" "unconnected-(U1-Pad10)" "unconnected-(U1-Pad13)" "Net-(U7-G)"
+    ~{SELx10} "unconnected-(U1-Pad9)" ~{SELx12} "unconnected-(U1-Pad8)" "unconnected-(U3-Pad8)" "unconnected-(U3-Pad9)" "unconnected-(U5-Pad6)" "unconnected-(U5-Pad5)"
+    BoardSelect "unconnected-(U4-Pad9)" "unconnected-(U4-Pad10)" "CS_VIA1" "unconnected-(U4-Pad8)" "unconnected-(U4-Pad3)" "unconnected-(U4-Pad2)" SERATNOUT
+    SERDATAOUT "unconnected-(U3-Pad12)" "unconnected-(U3-Pad13)" SERCLKOUT "~{CS_KM}" "Net-(U5-Pad11)" "Net-(U14-O0)" "Net-(U14-O3)"
+    "Net-(U14-O1)" "Net-(U17-I0a)" "Net-(U14-O2)" "Net-(U17-I3a)" "Net-(U17-I1a)" /Printer/STATUS1 ~{SELx18} ~{SELx1A}
+    ~{SELx16} ~{SELx14} ~{SELx1C} ~{PAROUT0} ~{PARIN0} "unconnected-(U9-O7-Pad7)" ~{PARIN1} ~{PAROUT2}
+    ~{PARIN2} "unconnected-(U9-O3-Pad12)" "unconnected-(U9-O1-Pad14)" "unconnected-(U10-Pin_9-Pad9)" "unconnected-(U10-Pin_5-Pad5)" "unconnected-(U10-Pin_3-Pad3)" "unconnected-(U10-Pin_12-Pad12)" "unconnected-(U10-Pin_10-Pad10)"
+    "unconnected-(U10-Pin_2-Pad2)" "unconnected-(U10-Pin_6-Pad6)" CLK "unconnected-(U10-Pin_13-Pad13)" "unconnected-(U11-SYNC-Pad11)" "Net-(U11-P23)" /Keyboard/P13 /Keyboard/P20
+    "Net-(U11-P27{slash}DAK)" /Keyboard/P16 "Net-(U11-P22)" "Net-(U11-P26{slash}DRQ)" /Keyboard/P15 "unconnected-(U4-Pad4)" "unconnected-(U4-Pad6)" /Keyboard/P17
+    /Keyboard/P12 "unconnected-(U11-SSPP-Pad26)" /Keyboard/P14 /Keyboard/P21 /Printer/~{PDENBL} PARINT "USERB_3" "USERA_4"
+    "USERB_1" "USERB_2" "USERA_6" "USERA_2" "USERB_7" "USERB_6" "USERB_5" "USERB_4"
+    "USERA_5" "USERA_3" "USERB_0" "unconnected-(U18-CA1-Pad40)" "unconnected-(U4-Pad1)" "unconnected-(U4-Pad5)" "Net-(U11-P25{slash}BF)" "Net-(U11-P24{slash}OB)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Power
+    VCC GND
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 1000.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
