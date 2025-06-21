@@ -1,0 +1,120 @@
+
+(rules PCB DUALESP1
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 2498)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.6)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.6)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.0)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd-smd))
+  )
+  (padstack "Via[0-1]_600:400_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:400_um" "Via[0-1]_600:400_um" default
+  )
+  (via 
+    "Via[0-1]_600:400_um-kicad_default" "Via[0-1]_600:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_600:400_um-Power" "Via[0-1]_600:400_um" Power
+  )
+  (via_rule
+    default "Via[0-1]_600:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:400_um-kicad_default"
+  )
+  (via_rule
+    Power "Via[0-1]_600:400_um-Power"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(J9-In)" "Net-(D1-A)" "Net-(D2-K)" "Net-(D3-K)" "unconnected-(J5-Pad15)" "unconnected-(J5-Pad11)" "unconnected-(J6-UNUSED-Pad8)" "B_D4"
+    "B_A19" BUSALE "B_D2" "unconnected-(J6--5V-Pad5)" "B_A2" "B_A17" "B_A9" "unconnected-(J6-DRQ3-Pad16)"
+    "B_A11" "B_D3" IRQ3 ~{RESET} "B_A8" "B_SMEMW" IRQ4 IRQ7
+    {slash}AEN IRQ2 "unconnected-(J6-DRQ2-Pad6)" "B_A5" "B_D7" "B_D6" "unconnected-(J6-+12V-Pad9)" IRQ6
+    "B_A16" "unconnected-(J6-~{DACK1}-Pad17)" "B_D1" "unconnected-(J6-~{DACK0}-Pad19)" "B_IOR" IRQ5 "B_SMEMR" "B_A14"
+    TC "B_A6" BUSCLK "B_A0" "B_A13" "unconnected-(J6-~{DACK3}-Pad15)" "B_A18" AUDIO
+    RX1 TX1 RX TX "B_D0" "B_D5" "B_A1" "unconnected-(J6--12V-Pad7)"
+    "B_A12" "B_A4" "B_A7" "B_A15" "unconnected-(J6-~{DACK2}-Pad26)" "B_A10" "B_CLK" "unconnected-(J6-DRQ1-Pad18)"
+    "unconnected-(J6-IO_READY-Pad41)" bD7 bD6 bD5 KBDCLK KBDDAT MSEDAT MSECLK
+    bD4 bD3 bD2 bD1 "~{CS_ESP}" "B_A3" bA0 bD0
+    "B_~{NMI}" "unconnected-(U4-Pad6)" "B_IOW" "unconnected-(J7-Pad6)" "Net-(J7-Pad5)" "Net-(J7-Pad1)" "unconnected-(J7-Pad2)" "unconnected-(J8-Pad6)"
+    "Net-(J8-Pad1)" "unconnected-(J8-Pad2)" "VGA_HSYNC" "VGA_VSYNC" "Net-(J8-Pad5)" b~{RD} "Net-(RR1-R6)" "VGA_R1"
+    "VGA_R0" "VGA_G1" "VGA_G0" "VGA_B1" "VGA_B0" "Net-(RR1-R4)" "unconnected-(U4-Pad8)" "Net-(RR1-R5)"
+    "Net-(RR1-R3)" "Net-(RR1-R7)" "Net-(RR1-R2)" "Net-(RR1-R1)" "Net-(RR1-R8)" "unconnected-(RR2-R8-Pad9)" b~{RESET} "~{ESP_WR}"
+    "~{ESP1_WR}" "unconnected-(RR2-R1-Pad2)" bA1 "~{ESP_RD}" "~{ESP0_RD}" "~{ESP1_RD}" "~{ESP0_WR}" "ESP0_OUTCLK"
+    "ESP0_OUT" "Net-(U10-QF)" "Net-(U10-QE)" "Net-(U10-QC)" "Net-(U10-QG)" "ESP0_INCLK" "Net-(U10-QB)" "Net-(U10-QD)"
+    "Net-(U10-QH)" "Net-(U10-QA)" "ESP0_BUSY" "ESP0_RDYO" "ESP0_SPAREO" /CardSelect/b~{WR} "unconnected-(U4-Pad9)" "unconnected-(U4-Pad10)"
+    "Net-(U4-Pad2)" "ESP0_IN" "Net-(U4-Pad4)" "unconnected-(U4-Pad5)" "ESP1_OUTCLK" "ESP1_OUT" "ESP1_INCLK" "Net-(U4-Pad12)"
+    "ESP1_IN" "unconnected-(U4-Pad11)" "ESP1_BUSY" "ESP1_RDYO" "Net-(U12-OEa)" "unconnected-(U5-Pad11)" "Net-(U5-Pad3)" "unconnected-(U5-Pad8)"
+    "unconnected-(U5-Pad12)" "unconnected-(U5-Pad13)" "unconnected-(U5-Pad10)" "unconnected-(U5-Pad9)" "Net-(U11-Q7)" "Net-(C15-Pad1)" "Net-(U6-Pad1)" "Net-(U14-Q7)"
+    "Net-(U6-Pad9)" "Net-(U6-Pad5)" "Net-(U6-Pad3)" "Net-(U7-Pad4)" "Net-(U7-Pad11)" "Net-(U9-G)" "unconnected-(U10-QH'-Pad9)" "unconnected-(U11-~{Q7}-Pad7)"
+    "unconnected-(U11-DS-Pad10)" "unconnected-(U13-QH'-Pad9)" "unconnected-(U14-~{Q7}-Pad7)" "unconnected-(U14-DS-Pad10)" "unconnected-(U17-Pad6)" "unconnected-(U17-Pad12)" "unconnected-(U17-Pad4)" "unconnected-(U17-Pad13)"
+    "unconnected-(U17-Pad9)" "unconnected-(U17-Pad8)" "unconnected-(U17-Pad5)" "unconnected-(U17-Pad11)" "unconnected-(U17-Pad10)" "unconnected-(U15-GPIO35-Pad5)" "unconnected-(U15-GPIO34-Pad4)" "unconnected-(U15-GPIO39-Pad3)"
+    "unconnected-(U16-GPIO36-Pad2)" "unconnected-(U16-GPIO27-Pad10)" "unconnected-(U16-GPIO14-Pad11)" "unconnected-(U16-GPIO26-Pad9)" "unconnected-(U16-GPIO4-Pad20)" "unconnected-(U16-GPIO2-Pad19)" "unconnected-(U16-GPIO15-Pad18)" "unconnected-(U16-GPIO12-Pad12)"
+    "unconnected-(U16-GPIO35-Pad5)" "unconnected-(U16-GPIO39-Pad3)" "unconnected-(U16-GPIO34-Pad4)" "unconnected-(U16-GPIO25-Pad8)" "unconnected-(U16-GPIO13-Pad13)" "unconnected-(U19-O1b-Pad7)" "unconnected-(U19-O3a-Pad12)" "unconnected-(U19-I0b-Pad11)"
+    "unconnected-(U19-O0b-Pad9)" "unconnected-(U19-I1b-Pad13)" "unconnected-(U19-I3a-Pad8)" "Net-(J5-Pad1)" "unconnected-(J5-Pad12)" "Net-(J5-Pad2)" "unconnected-(J5-Pad5)" "unconnected-(J5-Pad4)"
+    "Net-(J5-Pad3)" "unconnected-(J5-Pad9)" "unconnected-(J5-Pad10)" "Net-(U18-O1a)" "Net-(U18-O0b)" "Net-(U18-O1b)" "Net-(U18-O3b)" "Net-(U18-O3a)"
+    "Net-(U18-O2a)" "Net-(U18-O0a)" "Net-(U18-O2b)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Power
+    VCC GND +3.3V
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 1000.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

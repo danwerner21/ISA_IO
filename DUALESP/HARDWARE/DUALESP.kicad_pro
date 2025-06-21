@@ -237,11 +237,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|3854450|717550|202ebf50-3af7-46e5-a443-abf28e81cfea|8274e69f-f2b0-4ab0-85f5-06777ce15cc6|/1489d9c1-97ed-41d1-bf7e-e97aaaa797c2/3a8ef582-77be-4fd8-8715-71b899090066|/1489d9c1-97ed-41d1-bf7e-e97aaaa797c2/3a8ef582-77be-4fd8-8715-71b899090066|/1489d9c1-97ed-41d1-bf7e-e97aaaa797c2/3a8ef582-77be-4fd8-8715-71b899090066",
-      "power_pin_not_driven|3587750|1282700|e39dbb3f-2f42-46f8-b220-348c5a44aa84|00000000-0000-0000-0000-000000000000|/1489d9c1-97ed-41d1-bf7e-e97aaaa797c2/3a8ef582-77be-4fd8-8715-71b899090066|/1489d9c1-97ed-41d1-bf7e-e97aaaa797c2/3a8ef582-77be-4fd8-8715-71b899090066|",
-      "power_pin_not_driven|3587750|635000|bfa56792-8b39-4397-9ead-61b73ccd234c|00000000-0000-0000-0000-000000000000|/1489d9c1-97ed-41d1-bf7e-e97aaaa797c2/3a8ef582-77be-4fd8-8715-71b899090066|/1489d9c1-97ed-41d1-bf7e-e97aaaa797c2/3a8ef582-77be-4fd8-8715-71b899090066|"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -520,7 +516,7 @@
       "netlist": "Z80SOUND.net",
       "plot": "gerber/",
       "pos_files": "",
-      "specctra_dsn": "DUALESP.dsn",
+      "specctra_dsn": "DUALESP1.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
