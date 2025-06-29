@@ -11,6 +11,23 @@ The Nhyodyne ESP32 board provides the following functions for your Nhyodyne comp
 
 This board relies heavily on the FabGL library from Fabrizio Di Vittorio.   More information can be found [HERE](http://www.fabglib.org/)
 
+# BUGS
+
+Version 1.0 is unusable
+
+Version 1.1 is missing some data line connections
+* Connect U11 Pin 11 to U13 Pin 15
+* Connect U11 Pin 12 to U13 Pin 1
+* Connect U11 Pin 13 to U13 Pin 2
+* Connect U11 Pin 14 to U13 Pin 3
+* Connect U11 Pin 3 to U13 Pin 4
+* Connect U11 Pin 4 to U13 Pin 5
+* Connect U11 Pin 5 to U13 Pin 6
+* Connect U11 Pin 6 to U13 Pin 7
+
+Version 1.2 has not been verified, but should be correct
+
+
 # ESP32 BOM
 Qty|Reference(s)|Value|Notes
 ---|------------|-----|-----
