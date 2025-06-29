@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.6"
+      "Version": "9.0.2"
     },
-    "CreationDate": "2025-06-21T16:24:01-05:00"
+    "CreationDate": "2025-06-28T19:43:49-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "DUALESP",
       "GUID": "4455414c-4553-4502-9e6b-696361645f70",
-      "Revision": "V1.1"
+      "Revision": "V1.2"
     },
     "Size": {
       "X": 177.2352,

@@ -66,7 +66,7 @@ void forcedReset();
 
 void setup()
 {
-   // disableCore0WDT();
+  //  disableCore0WDT();
   //  delay(200); // experienced crashes without this delay!
   //  disableCore1WDT();
 

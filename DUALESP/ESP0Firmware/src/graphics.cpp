@@ -6,8 +6,9 @@
 void retroGraphics::initialize(fabgl::Terminal *Terminal)
 {
     m_Terminal = Terminal;
-    preferences.begin("retroESP32", false);
+    preferences.begin("retroESP", false);
     unsigned int gMode = preferences.getUInt("gMode", 21);
+    if(gMode>44) gMode=21;
     m_setGraphicsMode(gMode);
 
     buffer = new uint8_t[32768];
