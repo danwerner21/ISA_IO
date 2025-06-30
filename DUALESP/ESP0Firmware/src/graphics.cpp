@@ -6,11 +6,11 @@
 void retroGraphics::initialize(fabgl::Terminal *Terminal)
 {
     m_Terminal = Terminal;
-    preferences.begin("retroESP", false);
-    unsigned int gMode = preferences.getUInt("gMode", 21);
-    if(gMode>44) gMode=21;
+    preferences.begin("retroESP321", false);
+    unsigned int gMode = preferences.getUInt("gMode", 18);
+    if(gMode>44) gMode=181;
     m_setGraphicsMode(gMode);
-
+    loadFont(28);
     buffer = new uint8_t[32768];
     currentPointer = buffer;
 }
