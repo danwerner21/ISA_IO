@@ -6,8 +6,8 @@
 	(paper "USLedger")
 	(title_block
 		(title "ISA MULTI IO ")
-		(date "2025-05-31")
-		(rev "v1")
+		(date "2025-07-19")
+		(rev "v1.1")
 		(company "DAN WERNER")
 	)
 	(lib_symbols
@@ -5366,10 +5366,6 @@
 		(at 284.48 241.3)
 		(uuid "f66b3c30-5946-4441-aa03-9e9a488b88ad")
 	)
-	(no_connect
-		(at 284.48 236.22)
-		(uuid "fa2f0573-76ce-41cd-8f02-ffc066acb340")
-	)
 	(wire
 		(pts
 			(xy 327.66 134.62) (xy 327.66 137.16)
@@ -6539,6 +6535,16 @@
 			(type default)
 		)
 		(uuid "9d3184d1-b04d-4fad-b9d6-daec73743773")
+	)
+	(wire
+		(pts
+			(xy 284.48 236.22) (xy 295.91 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ee8166e-9f57-49de-a9e4-f44504149d3b")
 	)
 	(wire
 		(pts
@@ -9106,6 +9112,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{RESET}"
+		(shape input)
+		(at 295.91 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c544090f-78f1-43e2-a769-2dc2ee356162")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 295.91 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

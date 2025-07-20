@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ISA MULTI IO ")
-		(date "2025-05-31")
-		(rev "v1")
+		(date "2025-07-19")
+		(rev "v1.1")
 		(company "DAN WERNER")
 	)
 	(lib_symbols
@@ -4125,6 +4125,10 @@
 		(uuid "fa6e60a4-335e-48b7-bbc4-31379bcc6869")
 	)
 	(no_connect
+		(at 60.96 91.44)
+		(uuid "15266331-c1f6-4823-a279-acd27fd6ef1c")
+	)
+	(no_connect
 		(at 66.04 91.44)
 		(uuid "3fa2edd0-3905-4533-852a-e47dbd57b125")
 	)
@@ -4753,16 +4757,6 @@
 			(type default)
 		)
 		(uuid "80f3f701-0c08-4f02-9723-65f7451bdc94")
-	)
-	(wire
-		(pts
-			(xy 60.96 88.9) (xy 60.96 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "831a9275-1994-45e4-a0be-7e2e199b5b48")
 	)
 	(wire
 		(pts
@@ -5520,28 +5514,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIA1_INT"
-		(shape output)
-		(at 60.96 88.9 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "82bedf10-80ed-4fae-9a6c-8619be976228")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 78.0528 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)

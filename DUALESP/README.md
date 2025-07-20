@@ -636,7 +636,7 @@ Returns: None
 
 OP CODE|Description|Values
 -------|-----------|------
-22 |Draw Gliph| OUT-BYTE(s)
+22 |Draw Glyph| OUT-BYTE(s)
 
 The Draw Glyph opcode draws a Glyph on the bitmapped display, in the current Pen color.
 
