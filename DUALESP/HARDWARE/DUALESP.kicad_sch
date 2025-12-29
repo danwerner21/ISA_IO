@@ -3103,304 +3103,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -3862,12 +3564,6 @@
 		(uuid "936b1ea4-2e12-46dd-a073-937390a203ee")
 	)
 	(junction
-		(at 135.89 207.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c7f86b7-541e-4183-851a-034eef4e9d4a")
-	)
-	(junction
 		(at 119.38 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3902,12 +3598,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb48a993-59aa-4ec6-8370-9ff960fb0fc9")
-	)
-	(junction
-		(at 139.7 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be47a3f7-0396-450b-b713-460734e4fb21")
 	)
 	(junction
 		(at 133.35 165.1)
@@ -3964,6 +3654,10 @@
 		(uuid "feca78cb-cd62-41b3-80d1-f17c6edaba21")
 	)
 	(no_connect
+		(at 167.64 203.2)
+		(uuid "1dacf3df-f2ad-41db-945c-c9f37e57ea2a")
+	)
+	(no_connect
 		(at 219.71 189.23)
 		(uuid "1f9bd1cb-9bf7-48a5-9f8c-075837ba6e38")
 	)
@@ -3980,8 +3674,16 @@
 		(uuid "4450a1de-4b89-4c05-a622-7e0abc98b62a")
 	)
 	(no_connect
+		(at 186.69 214.63)
+		(uuid "51df1587-263f-455b-9cce-30a5316cb80d")
+	)
+	(no_connect
 		(at 204.47 191.77)
 		(uuid "51f612cd-9a84-460f-a069-e2984b9884c9")
+	)
+	(no_connect
+		(at 201.93 214.63)
+		(uuid "5d004919-b3f2-4368-8304-082e9980b44c")
 	)
 	(no_connect
 		(at 204.47 166.37)
@@ -3990,6 +3692,18 @@
 	(no_connect
 		(at 186.69 189.23)
 		(uuid "697c37a9-b4c6-492e-9e42-7ab64e9cab3a")
+	)
+	(no_connect
+		(at 186.69 203.2)
+		(uuid "6c66a18e-f9e9-4abd-ba0c-bf806fbdfe63")
+	)
+	(no_connect
+		(at 201.93 203.2)
+		(uuid "7239d16a-f308-4c6e-942b-e53eba724e7e")
+	)
+	(no_connect
+		(at 167.64 214.63)
+		(uuid "786413e1-5ca6-43ac-b145-f1df401e7730")
 	)
 	(no_connect
 		(at 204.47 171.45)
@@ -4014,6 +3728,14 @@
 	(no_connect
 		(at 204.47 186.69)
 		(uuid "a3023015-fec5-4ec7-be5a-a05ab3dd434c")
+	)
+	(no_connect
+		(at 182.88 203.2)
+		(uuid "a7b5f25c-7a12-4c88-911f-324492c3ca5d")
+	)
+	(no_connect
+		(at 182.88 214.63)
+		(uuid "b1b50e2d-eec5-4c6d-91ce-38dfe14a19a0")
 	)
 	(no_connect
 		(at 185.42 179.07)
@@ -4119,16 +3841,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 165.1) (xy 146.05 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20b1d19b-ee16-45fa-b57d-f479793a2b4e")
-	)
-	(wire
-		(pts
 			(xy 68.58 207.01) (xy 82.55 207.01)
 		)
 		(stroke
@@ -4186,16 +3898,6 @@
 			(type default)
 		)
 		(uuid "3a56dd55-76ae-4d31-98f0-dc2114521bbf")
-	)
-	(wire
-		(pts
-			(xy 146.05 175.26) (xy 146.05 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e1373c0-ea23-443f-a895-681f7497094f")
 	)
 	(wire
 		(pts
@@ -4389,16 +4091,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 165.1) (xy 146.05 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76e5751c-303c-41bc-af1d-b08aedbeffc4")
-	)
-	(wire
-		(pts
 			(xy 133.35 165.1) (xy 133.35 166.37)
 		)
 		(stroke
@@ -4456,16 +4148,6 @@
 			(type default)
 		)
 		(uuid "944bc9e5-9f51-4a67-a016-885d6d5dac46")
-	)
-	(wire
-		(pts
-			(xy 135.89 207.01) (xy 146.05 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9850c3fb-d396-40f4-b586-24111f546fd0")
 	)
 	(wire
 		(pts
@@ -4766,16 +4448,6 @@
 			(type default)
 		)
 		(uuid "e7315b0d-0f11-4da4-acc6-926ce5609cec")
-	)
-	(wire
-		(pts
-			(xy 146.05 186.69) (xy 146.05 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edd70ecf-c0bf-4be1-833e-ec80c957eebf")
 	)
 	(wire
 		(pts
@@ -5135,7 +4807,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS32"
+		(property "Value" "74F32"
 			(at 107.315 194.945 0)
 			(effects
 				(font
@@ -5309,7 +4981,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS32"
+		(property "Value" "74F32"
 			(at 132.08 195.58 0)
 			(effects
 				(font
@@ -5532,41 +5204,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 146.05 182.88 90)
-		(unit 1)
+		(lib_id "74xx:74LS07")
+		(at 194.31 214.63 0)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2b66ff31-c757-4f7c-88c3-37600946cf64")
-		(property "Reference" "D1"
-			(at 143.51 182.88 0)
+		(uuid "2b0ab40d-44fd-47ef-983a-497663591988")
+		(property "Reference" "U6"
+			(at 193.167 214.757 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 148.59 182.88 0)
+		(property "Value" "74LS07"
+			(at 193.675 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Custom:STD_DDW_LED5"
-			(at 146.05 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 182.88 0)
+		(property "Footprint" "Custom:STD_DDW_DIP14"
+			(at 194.31 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5574,8 +5237,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 146.05 182.88 0)
+		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
+			(at 194.31 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,16 +5256,52 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee5e0345-0be4-45a9-8278-4357c9448a5a")
+			(uuid "ebc78832-5978-439c-981f-52173f102842")
 		)
 		(pin "2"
-			(uuid "de34b71e-ad5b-43f6-9515-554fcf01e351")
+			(uuid "fdf099e5-d358-4e56-ab9f-ba796e715cb1")
+		)
+		(pin "3"
+			(uuid "7fc879ea-f02f-4d00-b954-4e8d50923d2a")
+		)
+		(pin "4"
+			(uuid "fca33e33-a697-43d6-a7fb-a66d6a3cd939")
+		)
+		(pin "5"
+			(uuid "565296f8-862b-43d2-95e5-f9f9a89d1f52")
+		)
+		(pin "6"
+			(uuid "7733f101-1c25-405b-807a-462234f3492b")
+		)
+		(pin "8"
+			(uuid "1990c2ea-25a0-4947-b231-deb3ab57dbd1")
+		)
+		(pin "9"
+			(uuid "0461a0b0-fe84-49d6-b070-108c5410cd23")
+		)
+		(pin "10"
+			(uuid "a4c3728c-ec36-40dd-a205-1e18907f33ea")
+		)
+		(pin "11"
+			(uuid "16efeece-1c63-4dc5-9def-6aa74fe8018c")
+		)
+		(pin "12"
+			(uuid "3d47911e-0bb0-4d00-8896-515ff979bf03")
+		)
+		(pin "13"
+			(uuid "f6a40532-43fa-40a1-9bb7-3c08c523e83c")
+		)
+		(pin "14"
+			(uuid "416b04cb-8717-4298-adf9-35399de148bc")
+		)
+		(pin "7"
+			(uuid "470ce237-5bc3-4809-a52a-94069110b6f3")
 		)
 		(instances
 			(project "DUALESP"
 				(path "/1489d9c1-97ed-41d1-bf7e-e97aaaa797c2"
-					(reference "D1")
-					(unit 1)
+					(reference "U6")
+					(unit 3)
 				)
 			)
 		)
@@ -5684,7 +5392,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS32"
+		(property "Value" "74F32"
 			(at 212.09 184.15 0)
 			(effects
 				(font
@@ -6457,6 +6165,109 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74LS07")
+		(at 175.26 214.63 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "842278ba-c747-42d9-a4cd-4fb38e0f7d54")
+		(property "Reference" "U6"
+			(at 173.99 214.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS07"
+			(at 174.625 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:STD_DDW_DIP14"
+			(at 175.26 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
+			(at 175.26 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df7f2502-282c-4b8c-9cba-646febdd70b9")
+		)
+		(pin "2"
+			(uuid "7f320ea4-0e90-4f80-a87c-50f3e6e126d8")
+		)
+		(pin "3"
+			(uuid "866d5e23-8dee-4ba7-9c72-1c8041698f75")
+		)
+		(pin "4"
+			(uuid "74a0b8a2-48e4-4486-a3fc-6b4e390d076f")
+		)
+		(pin "5"
+			(uuid "c48be854-5e7f-4741-8806-47c9d7642e05")
+		)
+		(pin "6"
+			(uuid "ed6aa110-0deb-4827-b511-460d7b16bc0f")
+		)
+		(pin "8"
+			(uuid "45541b80-ce8f-4168-b19c-16ec579c346a")
+		)
+		(pin "9"
+			(uuid "0c86a23a-a78a-4de3-81b0-950e88c88a06")
+		)
+		(pin "10"
+			(uuid "d87c0d02-3164-494c-84cf-f84d099c5ecb")
+		)
+		(pin "11"
+			(uuid "9c86f0ad-523f-4cdd-9ddb-b19415c782e1")
+		)
+		(pin "12"
+			(uuid "f9f6f0c3-01b1-4548-b085-8ebca44c8b33")
+		)
+		(pin "13"
+			(uuid "b1ef8c8e-5be1-47f6-8873-afc716d69eb4")
+		)
+		(pin "14"
+			(uuid "2d235db6-bc91-4401-8a9e-13291560fc0d")
+		)
+		(pin "7"
+			(uuid "aa32501a-f779-4759-837e-cf5d9023f2a2")
+		)
+		(instances
+			(project "DUALESP"
+				(path "/1489d9c1-97ed-41d1-bf7e-e97aaaa797c2"
+					(reference "U6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 133.35 170.18 0)
 		(unit 1)
@@ -6520,6 +6331,109 @@
 			(project "DUALESP"
 				(path "/1489d9c1-97ed-41d1-bf7e-e97aaaa797c2"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS07")
+		(at 175.26 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8de33ef1-af59-4c2d-b7e9-35bb236c2e2e")
+		(property "Reference" "U6"
+			(at 173.99 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS07"
+			(at 174.625 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:STD_DDW_DIP14"
+			(at 175.26 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
+			(at 175.26 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f436eb9-d422-4f52-a569-225ca646a2fb")
+		)
+		(pin "2"
+			(uuid "87a26b3c-09f7-4b47-9cd6-e4671ce7d722")
+		)
+		(pin "3"
+			(uuid "8a389f73-edde-44e9-bc6c-e3baddedd148")
+		)
+		(pin "4"
+			(uuid "ce19884b-ddcf-414d-9f3d-6170007b5698")
+		)
+		(pin "5"
+			(uuid "0151426d-3b16-4a6a-b469-23bb7f9ca84a")
+		)
+		(pin "6"
+			(uuid "d6eb4887-59c0-44c7-a327-bdf1c8c2a554")
+		)
+		(pin "8"
+			(uuid "4146ba3e-afae-460c-912a-4cdda821b5eb")
+		)
+		(pin "9"
+			(uuid "6a81d367-d978-4e68-ba6f-ee01d6f99448")
+		)
+		(pin "10"
+			(uuid "8e12f468-d23a-4360-be1f-5b5e7860d224")
+		)
+		(pin "11"
+			(uuid "d929413d-5976-4de1-a111-12dfba70c4ba")
+		)
+		(pin "12"
+			(uuid "6829c472-cbc7-4d29-811f-3ffc9ded7897")
+		)
+		(pin "13"
+			(uuid "bcf3864d-faef-42c7-b255-6fc88b86d222")
+		)
+		(pin "14"
+			(uuid "f2f03e68-e351-4f75-8bb5-751970d94797")
+		)
+		(pin "7"
+			(uuid "86b6b598-f8ae-4877-a6c5-3d0e6c053ce5")
+		)
+		(instances
+			(project "DUALESP"
+				(path "/1489d9c1-97ed-41d1-bf7e-e97aaaa797c2"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -7036,6 +6950,109 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74LS07")
+		(at 194.31 203.2 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae6281b1-5405-4af1-9256-25b566a95095")
+		(property "Reference" "U6"
+			(at 193.04 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS07"
+			(at 193.675 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:STD_DDW_DIP14"
+			(at 194.31 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
+			(at 194.31 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9948db44-69c8-4cf9-8c50-c5bab0ec0004")
+		)
+		(pin "2"
+			(uuid "8b5e5ee8-0e23-4d2e-b629-1358201bd75e")
+		)
+		(pin "3"
+			(uuid "261c032d-ff92-463c-98b9-26a9419874b8")
+		)
+		(pin "4"
+			(uuid "d31d66ac-6553-49a1-a5d5-26737ed69c40")
+		)
+		(pin "5"
+			(uuid "3ab26b0b-9e6a-4d86-9be0-c38d866a4fab")
+		)
+		(pin "6"
+			(uuid "a14b7df8-0672-49ba-b2d3-3b1a52516f69")
+		)
+		(pin "8"
+			(uuid "b8f31668-0cbe-4f98-9446-6406063c05b7")
+		)
+		(pin "9"
+			(uuid "c998c3bd-2d20-41de-98cc-e350d8ddc5a9")
+		)
+		(pin "10"
+			(uuid "229f9424-8148-496a-bbc7-70aff4c2f81b")
+		)
+		(pin "11"
+			(uuid "6a7c234a-c66f-4bca-bf3e-984991831d08")
+		)
+		(pin "12"
+			(uuid "70a7af5f-ccdc-4f7d-9082-e0546b922088")
+		)
+		(pin "13"
+			(uuid "057259b7-67bd-4500-acd6-7b9b6f04e193")
+		)
+		(pin "14"
+			(uuid "81c0b021-4ce2-4cc7-94ac-2c6c68dc9922")
+		)
+		(pin "7"
+			(uuid "5a8691e5-3760-4ac3-b964-a39aebcf96f5")
+		)
+		(instances
+			(project "DUALESP"
+				(path "/1489d9c1-97ed-41d1-bf7e-e97aaaa797c2"
+					(reference "U6")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS32")
 		(at 96.52 194.31 0)
 		(unit 5)
@@ -7053,7 +7070,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS32"
+		(property "Value" "74F32"
 			(at 92.71 195.58 0)
 			(effects
 				(font
@@ -7398,7 +7415,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS32"
+		(property "Value" "74F32"
 			(at 212.09 163.83 0)
 			(effects
 				(font
@@ -7480,73 +7497,6 @@
 				(path "/1489d9c1-97ed-41d1-bf7e-e97aaaa797c2"
 					(reference "U5")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 146.05 171.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ecca650c-373e-462e-8658-973dbac4f116")
-		(property "Reference" "R1"
-			(at 144.018 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470Ω"
-			(at 146.05 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom:STD_DDW_RESISTOR"
-			(at 147.828 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 146.05 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ccfcf9b9-74a4-4735-a765-d5f8cfdc96e7")
-		)
-		(pin "2"
-			(uuid "36bac9a6-1f53-4780-b53b-7982ccb947cc")
-		)
-		(instances
-			(project "DUALESP"
-				(path "/1489d9c1-97ed-41d1-bf7e-e97aaaa797c2"
-					(reference "R1")
-					(unit 1)
 				)
 			)
 		)

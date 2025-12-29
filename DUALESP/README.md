@@ -800,7 +800,7 @@ OP CODE|Description|Values
 -------|-----------|------
 32 |Set Brush Color| OUT-BYTE
 
-The Set Brush Color sets the brush color to the specified color index on the pallette.
+The Set Brush Color sets the brush color to the specified color index on the palette.
 
 Input Parameters: 1 byte - Color
 Returns: None  
@@ -822,7 +822,7 @@ OP CODE|Description|Values
 -------|-----------|------
 34 |Set Pen Color| OUT-BYTE
 
-The Set Pen Color sets the brush color to the specified color index on the pallette.
+The Set Pen Color sets the brush color to the specified color index on the palette.
 
 Input Parameters: 1 byte - Color
 Returns: None  
@@ -873,12 +873,12 @@ Returns: None
 
 OP CODE|Description|Values
 -------|-----------|------
-38 |Set Pallette Item| OUT-BYTE  OUT-BYTE  OUT-BYTE  OUT-BYTE  
+38 |Set Palette Item| OUT-BYTE  OUT-BYTE  OUT-BYTE  OUT-BYTE  
 
-The Set Pallette Item opcode sets the rendered color for a given color index.
+The Set Palette Item opcode sets the rendered color for a given color index.
 
 The following parameters need to be specified in the following order:
-* Index, 1 byte, Color Index on Pallette (0-63 or 0-15, or 0-3, or 0-2 or 0-1 depending on screen color depth)
+* Index, 1 byte, Color Index on Palette (0-63 or 0-15, or 0-3, or 0-2 or 0-1 depending on screen color depth)
 * Blue Value, 1 byte 
 * Green Value, 1 byte
 * Red Value, 1 byte

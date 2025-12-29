@@ -6844,16 +6844,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 175.26) (xy 283.21 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bd49a8a-6874-478e-8843-45e925432c54")
-	)
-	(wire
-		(pts
 			(xy 203.2 73.66) (xy 203.2 88.9)
 		)
 		(stroke
@@ -7174,7 +7164,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 175.26) (xy 262.89 175.26)
+			(xy 261.62 175.26) (xy 267.97 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7354,7 +7344,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 161.29) (xy 264.16 161.29)
+			(xy 261.62 161.29) (xy 267.97 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7411,16 +7401,6 @@
 			(type default)
 		)
 		(uuid "76525220-ce2e-408a-a4e0-caabad04249d")
-	)
-	(wire
-		(pts
-			(xy 279.4 161.29) (xy 283.21 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79585ed8-81f7-4eed-8ada-e0bc0351a295")
 	)
 	(wire
 		(pts
@@ -7834,7 +7814,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 191.77) (xy 267.97 191.77)
+			(xy 264.16 191.77) (xy 269.24 191.77)
 		)
 		(stroke
 			(width 0)
@@ -8001,16 +7981,6 @@
 			(type default)
 		)
 		(uuid "d2ab806b-1387-40b7-99d6-a555c9a2d4f5")
-	)
-	(wire
-		(pts
-			(xy 278.13 144.78) (xy 283.21 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3fbdbaa-e6ce-4c45-a804-91190f2008c9")
 	)
 	(wire
 		(pts
@@ -8184,16 +8154,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 191.77) (xy 284.48 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f14be41a-25f5-4eec-9f2d-d47bd30dfa3a")
-	)
-	(wire
-		(pts
 			(xy 292.1 107.95) (xy 303.53 107.95)
 		)
 		(stroke
@@ -8284,23 +8244,13 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 144.78) (xy 262.89 144.78)
+			(xy 260.35 144.78) (xy 266.7 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ff293263-e120-4f13-8b08-05dd1d378b01")
-	)
-	(label "b~{RD}"
-		(at 90.17 152.4 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "8eca0b3c-82c5-4f2a-b8d5-12ccd11ed760")
 	)
 	(label "b~{WR}"
 		(at 90.17 149.86 0)
@@ -8488,7 +8438,7 @@
 	)
 	(global_label "~{ESP0_RD}"
 		(shape output)
-		(at 283.21 175.26 0)
+		(at 267.97 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8498,7 +8448,7 @@
 		)
 		(uuid "13c329a7-dd12-4e7b-81f4-3faedcf3b62c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 293.8866 175.26 0)
+			(at 278.6466 175.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8532,7 +8482,7 @@
 	)
 	(global_label "~{ESP0_WR}"
 		(shape output)
-		(at 283.21 144.78 0)
+		(at 266.7 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8542,7 +8492,7 @@
 		)
 		(uuid "1e08cf49-b4cf-4ada-b205-89306255e508")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 294.068 144.78 0)
+			(at 277.558 144.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9238,7 +9188,7 @@
 	)
 	(global_label "~{ESP1_RD}"
 		(shape output)
-		(at 284.48 191.77 0)
+		(at 269.24 191.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9248,7 +9198,7 @@
 		)
 		(uuid "904713d0-4f99-4e7f-9060-70e0250aa939")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 295.1566 191.77 0)
+			(at 279.9166 191.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9518,7 +9468,7 @@
 	)
 	(global_label "~{ESP1_WR}"
 		(shape output)
-		(at 283.21 161.29 0)
+		(at 267.97 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9528,7 +9478,7 @@
 		)
 		(uuid "cd6d7ca2-b954-428b-bb4f-42313ae764b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 294.068 161.29 0)
+			(at 278.828 161.29 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10028,7 +9978,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS32"
+		(property "Value" "74F32"
 			(at 261.62 83.82 0)
 			(effects
 				(font
@@ -10789,7 +10739,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HC165"
+		(property "Value" "74ACT165"
 			(at 318.2494 82.55 0)
 			(effects
 				(font
@@ -10943,109 +10893,6 @@
 			(project "DUALESP"
 				(path "/1489d9c1-97ed-41d1-bf7e-e97aaaa797c2/bb50d935-6cee-4c02-9854-42100f2ef4fd"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS07")
-		(at 270.51 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d3ceddb-ff82-4870-b4ca-da6c83bacdeb")
-		(property "Reference" "U6"
-			(at 269.24 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS07"
-			(at 269.875 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom:STD_DDW_DIP14"
-			(at 270.51 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
-			(at 270.51 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b60215b8-5ebe-4d33-8e1e-c9337d5470cb")
-		)
-		(pin "2"
-			(uuid "1237a44d-37f2-426a-a933-d56c04b9758e")
-		)
-		(pin "3"
-			(uuid "8a389f73-edde-44e9-bc6c-e3baddedd148")
-		)
-		(pin "4"
-			(uuid "ce19884b-ddcf-414d-9f3d-6170007b5698")
-		)
-		(pin "5"
-			(uuid "0151426d-3b16-4a6a-b469-23bb7f9ca84a")
-		)
-		(pin "6"
-			(uuid "d6eb4887-59c0-44c7-a327-bdf1c8c2a554")
-		)
-		(pin "8"
-			(uuid "4146ba3e-afae-460c-912a-4cdda821b5eb")
-		)
-		(pin "9"
-			(uuid "6a81d367-d978-4e68-ba6f-ee01d6f99448")
-		)
-		(pin "10"
-			(uuid "8e12f468-d23a-4360-be1f-5b5e7860d224")
-		)
-		(pin "11"
-			(uuid "d929413d-5976-4de1-a111-12dfba70c4ba")
-		)
-		(pin "12"
-			(uuid "6829c472-cbc7-4d29-811f-3ffc9ded7897")
-		)
-		(pin "13"
-			(uuid "bcf3864d-faef-42c7-b255-6fc88b86d222")
-		)
-		(pin "14"
-			(uuid "f2f03e68-e351-4f75-8bb5-751970d94797")
-		)
-		(pin "7"
-			(uuid "86b6b598-f8ae-4877-a6c5-3d0e6c053ce5")
-		)
-		(instances
-			(project "DUALESP"
-				(path "/1489d9c1-97ed-41d1-bf7e-e97aaaa797c2/bb50d935-6cee-4c02-9854-42100f2ef4fd"
-					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -11384,109 +11231,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS07")
-		(at 271.78 161.29 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73829c2f-b335-4991-a7f0-f6cbd20ace61")
-		(property "Reference" "U6"
-			(at 270.51 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS07"
-			(at 271.145 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom:STD_DDW_DIP14"
-			(at 271.78 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
-			(at 271.78 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 271.78 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df7f2502-282c-4b8c-9cba-646febdd70b9")
-		)
-		(pin "2"
-			(uuid "7f320ea4-0e90-4f80-a87c-50f3e6e126d8")
-		)
-		(pin "3"
-			(uuid "8b60b88a-03e5-436e-8634-94f35e1f7d04")
-		)
-		(pin "4"
-			(uuid "2184aac2-a528-4398-b95d-c2304ebd404f")
-		)
-		(pin "5"
-			(uuid "c48be854-5e7f-4741-8806-47c9d7642e05")
-		)
-		(pin "6"
-			(uuid "ed6aa110-0deb-4827-b511-460d7b16bc0f")
-		)
-		(pin "8"
-			(uuid "45541b80-ce8f-4168-b19c-16ec579c346a")
-		)
-		(pin "9"
-			(uuid "0c86a23a-a78a-4de3-81b0-950e88c88a06")
-		)
-		(pin "10"
-			(uuid "d87c0d02-3164-494c-84cf-f84d099c5ecb")
-		)
-		(pin "11"
-			(uuid "9c86f0ad-523f-4cdd-9ddb-b19415c782e1")
-		)
-		(pin "12"
-			(uuid "f9f6f0c3-01b1-4548-b085-8ebca44c8b33")
-		)
-		(pin "13"
-			(uuid "b1ef8c8e-5be1-47f6-8873-afc716d69eb4")
-		)
-		(pin "14"
-			(uuid "2d235db6-bc91-4401-8a9e-13291560fc0d")
-		)
-		(pin "7"
-			(uuid "aa32501a-f779-4759-837e-cf5d9023f2a2")
-		)
-		(instances
-			(project "DUALESP"
-				(path "/1489d9c1-97ed-41d1-bf7e-e97aaaa797c2/bb50d935-6cee-4c02-9854-42100f2ef4fd"
-					(reference "U6")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74LS688")
 		(at 187.96 91.44 0)
 		(unit 1)
@@ -11727,7 +11471,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS32"
+		(property "Value" "74F32"
 			(at 256.54 186.69 0)
 			(effects
 				(font
@@ -11895,7 +11639,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS32"
+		(property "Value" "74F32"
 			(at 260.985 62.865 0)
 			(effects
 				(font
@@ -12403,7 +12147,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS244"
+		(property "Value" "74ALS244"
 			(at 78.3941 129.54 0)
 			(effects
 				(font
@@ -12509,109 +12253,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS07")
-		(at 275.59 191.77 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba471534-f4ad-453d-b0e5-013a410bc0f8")
-		(property "Reference" "U6"
-			(at 274.32 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS07"
-			(at 274.955 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom:STD_DDW_DIP14"
-			(at 275.59 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
-			(at 275.59 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 275.59 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9948db44-69c8-4cf9-8c50-c5bab0ec0004")
-		)
-		(pin "2"
-			(uuid "8b5e5ee8-0e23-4d2e-b629-1358201bd75e")
-		)
-		(pin "3"
-			(uuid "261c032d-ff92-463c-98b9-26a9419874b8")
-		)
-		(pin "4"
-			(uuid "d31d66ac-6553-49a1-a5d5-26737ed69c40")
-		)
-		(pin "5"
-			(uuid "3ab26b0b-9e6a-4d86-9be0-c38d866a4fab")
-		)
-		(pin "6"
-			(uuid "a14b7df8-0672-49ba-b2d3-3b1a52516f69")
-		)
-		(pin "8"
-			(uuid "464a3fc6-253c-4608-b244-86b34b1ccdc1")
-		)
-		(pin "9"
-			(uuid "9b340ffe-e3de-482e-a0f5-2afbcaf72077")
-		)
-		(pin "10"
-			(uuid "229f9424-8148-496a-bbc7-70aff4c2f81b")
-		)
-		(pin "11"
-			(uuid "6a7c234a-c66f-4bca-bf3e-984991831d08")
-		)
-		(pin "12"
-			(uuid "70a7af5f-ccdc-4f7d-9082-e0546b922088")
-		)
-		(pin "13"
-			(uuid "057259b7-67bd-4500-acd6-7b9b6f04e193")
-		)
-		(pin "14"
-			(uuid "81c0b021-4ce2-4cc7-94ac-2c6c68dc9922")
-		)
-		(pin "7"
-			(uuid "5a8691e5-3760-4ac3-b964-a39aebcf96f5")
-		)
-		(instances
-			(project "DUALESP"
-				(path "/1489d9c1-97ed-41d1-bf7e-e97aaaa797c2/bb50d935-6cee-4c02-9854-42100f2ef4fd"
-					(reference "U6")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 91.44 64.77 0)
 		(unit 1)
@@ -12694,7 +12335,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS32"
+		(property "Value" "74F32"
 			(at 254 170.18 0)
 			(effects
 				(font
@@ -12781,109 +12422,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS07")
-		(at 270.51 175.26 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cc5ff9ba-71a6-4c78-aded-d30d5fe03abf")
-		(property "Reference" "U6"
-			(at 269.367 175.387 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS07"
-			(at 269.875 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom:STD_DDW_DIP14"
-			(at 270.51 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "www.ti.com/lit/ds/symlink/sn74ls07.pdf"
-			(at 270.51 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ebc78832-5978-439c-981f-52173f102842")
-		)
-		(pin "2"
-			(uuid "fdf099e5-d358-4e56-ab9f-ba796e715cb1")
-		)
-		(pin "3"
-			(uuid "7fc879ea-f02f-4d00-b954-4e8d50923d2a")
-		)
-		(pin "4"
-			(uuid "fca33e33-a697-43d6-a7fb-a66d6a3cd939")
-		)
-		(pin "5"
-			(uuid "0e0ff0a1-2eb0-4b79-aa86-faaed2edf3c4")
-		)
-		(pin "6"
-			(uuid "791cce3c-f785-4d1b-bfdb-4b18cf880e12")
-		)
-		(pin "8"
-			(uuid "1990c2ea-25a0-4947-b231-deb3ab57dbd1")
-		)
-		(pin "9"
-			(uuid "0461a0b0-fe84-49d6-b070-108c5410cd23")
-		)
-		(pin "10"
-			(uuid "a4c3728c-ec36-40dd-a205-1e18907f33ea")
-		)
-		(pin "11"
-			(uuid "16efeece-1c63-4dc5-9def-6aa74fe8018c")
-		)
-		(pin "12"
-			(uuid "3d47911e-0bb0-4d00-8896-515ff979bf03")
-		)
-		(pin "13"
-			(uuid "f6a40532-43fa-40a1-9bb7-3c08c523e83c")
-		)
-		(pin "14"
-			(uuid "416b04cb-8717-4298-adf9-35399de148bc")
-		)
-		(pin "7"
-			(uuid "470ce237-5bc3-4809-a52a-94069110b6f3")
-		)
-		(instances
-			(project "DUALESP"
-				(path "/1489d9c1-97ed-41d1-bf7e-e97aaaa797c2/bb50d935-6cee-4c02-9854-42100f2ef4fd"
-					(reference "U6")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74LS32")
 		(at 252.73 144.78 0)
 		(unit 2)
@@ -12900,7 +12438,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS32"
+		(property "Value" "74F32"
 			(at 252.095 139.065 0)
 			(effects
 				(font
@@ -13069,7 +12607,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS32"
+		(property "Value" "74F32"
 			(at 240.665 66.04 0)
 			(effects
 				(font
@@ -13238,7 +12776,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS32"
+		(property "Value" "74F32"
 			(at 243.84 81.28 0)
 			(effects
 				(font
@@ -13341,7 +12879,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS32"
+		(property "Value" "74F32"
 			(at 254 156.21 0)
 			(effects
 				(font
