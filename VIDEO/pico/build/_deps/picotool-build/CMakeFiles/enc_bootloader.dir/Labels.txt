@@ -1,0 +1,13 @@
+# Target labels
+ enc_bootloader
+# Source files and their labels
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/_deps/picotool-build/CMakeFiles/enc_bootloader
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/_deps/picotool-build/CMakeFiles/enc_bootloader.rule
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/_deps/picotool-build/CMakeFiles/enc_bootloader-complete.rule
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-build.rule
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-configure.rule
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-download.rule
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-install.rule
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-mkdir.rule
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-patch.rule
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-update.rule

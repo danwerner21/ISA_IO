@@ -1,0 +1,7 @@
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/_deps/picotool/picotool
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/_deps/picotool/picotoolTargets.cmake
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/_deps/picotool/picotoolTargets-release.cmake
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/_deps/picotool/picotoolConfig.cmake
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/_deps/picotool/picotoolConfigVersion.cmake
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/_deps/picotool/enc_bootloader.elf
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/_deps/picotool/enc_bootloader_mbedtls.elf

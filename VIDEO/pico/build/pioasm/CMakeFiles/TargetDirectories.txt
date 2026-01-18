@@ -1,0 +1,7 @@
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/pioasm/CMakeFiles/pioasm.dir
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/pioasm/CMakeFiles/edit_cache.dir
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/pioasm/CMakeFiles/rebuild_cache.dir
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/pioasm/CMakeFiles/list_install_components.dir
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/pioasm/CMakeFiles/install.dir
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/pioasm/CMakeFiles/install/local.dir
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/pioasm/CMakeFiles/install/strip.dir

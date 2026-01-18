@@ -1,0 +1,5 @@
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/pioasm-install/pioasm/pioasm
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/pioasm-install/pioasm/pioasmTargets.cmake
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/pioasm-install/pioasm/pioasmTargets-release.cmake
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/pioasm-install/pioasm/pioasmConfig.cmake
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/pioasm-install/pioasm/pioasmConfigVersion.cmake

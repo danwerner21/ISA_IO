@@ -1,0 +1,3 @@
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/_deps/picotool-subbuild/CMakeFiles/picotool-populate.dir
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/_deps/picotool-subbuild/CMakeFiles/edit_cache.dir
+/mnt/fileserver/Vintage/Projects/ISA_IO/VIDEO/pico/build/_deps/picotool-subbuild/CMakeFiles/rebuild_cache.dir
