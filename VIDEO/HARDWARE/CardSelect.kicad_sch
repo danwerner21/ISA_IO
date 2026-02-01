@@ -6,8 +6,8 @@
 	(paper "USLedger")
 	(title_block
 		(title "ISA VIDEO/SID")
-		(date "2026-01-18")
-		(rev "V1.0")
+		(date "2026-01-31")
+		(rev "V1.1")
 	)
 	(lib_symbols
 		(symbol "74xx:74LS08"

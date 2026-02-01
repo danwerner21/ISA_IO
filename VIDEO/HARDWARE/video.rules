@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 15)
+    (start_pass_no 17)
     (layer_rule "F.Cu"
       (active on)
       (preferred_direction horizontal)
@@ -96,7 +96,8 @@
     "unconnected-(U36-GND-Pad42)_1" "unconnected-(U2-Pad13)" "Net-(U6-A->B)" "unconnected-(U2-Pad10)" "unconnected-(U2-Pad5)" "MEMR" "unconnected-(U2-Pad4)" "unconnected-(U2-Pad6)"
     "unconnected-(U2-Pad9)" "unconnected-(U2-Pad12)" "unconnected-(U2-Pad11)" "unconnected-(U2-Pad8)" "bA0" "bA3" "bA6" "bA5"
     "bA7" "bA4" "bA2" "bA1" "bA10" "bA8" "bA11" "bA9"
-    "bA12" "bA14" "bA13" "VDATA_DIR_1"
+    "bA12" "bA14" "bA13" "VDATA_DIR_1" "unconnected-(U8-A6-Pad8)" "unconnected-(U8-A5-Pad7)" "unconnected-(U8-B2-Pad16)" "unconnected-(U8-B6-Pad12)"
+    "unconnected-(U8-A4-Pad6)" "unconnected-(U8-A3-Pad5)" "unconnected-(U8-B3-Pad15)" "unconnected-(U8-B5-Pad13)" "unconnected-(U8-B4-Pad14)" "unconnected-(U8-B7-Pad11)" "unconnected-(U8-A2-Pad4)" "unconnected-(U8-A7-Pad9)"
     (clearance_class "kicad_default")
     (via_rule "kicad_default")
     (rule

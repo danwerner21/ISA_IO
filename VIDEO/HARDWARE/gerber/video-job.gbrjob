@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "9.0.2"
     },
-    "CreationDate": "2026-01-18T17:28:16-06:00"
+    "CreationDate": "2026-01-31T17:48:04-06:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "video",
       "GUID": "76696465-6f2e-46b6-9963-61645f706362",
-      "Revision": "V0.9"
+      "Revision": "V1.1"
     },
     "Size": {
       "X": 177.0812,
