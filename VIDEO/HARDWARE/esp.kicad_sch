@@ -5,9 +5,9 @@
 	(uuid "110896e9-4243-4e86-892c-0fab0fee308a")
 	(paper "USLedger")
 	(title_block
-		(title "ISA VIDEO/SID")
-		(date "2026-01-31")
-		(rev "V1.1")
+		(title "ISA VIDEO")
+		(date "2026-03-22")
+		(rev "V1.6")
 	)
 	(lib_symbols
 		(symbol "74xx:74LS245"

@@ -1,0 +1,106 @@
+
+(rules PCB SOUND
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 6)
+    (layer_rule "F.Cu"
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.6)
+    )
+    (layer_rule "B.Cu"
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.6)
+    )
+  )
+  (rule
+    (width 200.0)
+    (clear 200.0)
+    (clear 100.0 (type smd_to_turn_gap))
+    (clear 50.0 (type "smd"-"smd"))
+  )
+  (padstack "Via[0-1]_600:300_um"
+    (shape
+      (circle "F.Cu" 600.0 0.0 0.0)
+    )
+    (shape
+      (circle "B.Cu" 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" "default"
+  )
+  (via 
+    "Via[0-1]_600:300_um-kicad_default" "Via[0-1]_600:300_um" "kicad_default"
+  )
+  (via_rule
+    "default" "Via[0-1]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:300_um-kicad_default"
+  )
+  (class "default"
+    (clearance_class "default")
+    (via_rule "default")
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "B_A7" "B_A14" "unconnected-(J1-DRQ1-Pad18)" "unconnected-(J1-~{DACK0}-Pad19)" "Net-(C44-Pad2)" "Net-(C45-Pad1)" "BUSCLK" "B_A15"
+    "B_A5" "B_A3" "Net-(C46-Pad2)" "Net-(C47-Pad2)" "B_D6" "unconnected-(J1-~{DACK3}-Pad15)" "B_A8" "unconnected-(J1-DRQ3-Pad16)"
+    "Net-(J2-Pin_10)" "B_D5" "B_A2" "P1_B" "B_IOW" "unconnected-(J1-~{DACK1}-Pad17)" "B_A16" "B_A17"
+    "B_A6" "B_D2" "P1_D" "unconnected-(J1-UNUSED-Pad8)" "B_A18" "B_SMEMW" "BUSALE" "P1_R"
+    "B_A11" "B_A4" "B_A19" "{slash}AEN" "B_SMEMR" "unconnected-(J1-DRQ2-Pad6)" "B_A1" "P1_U"
+    "B_D7" "unconnected-(J1-IO_READY-Pad41)" "TC" "B_D4" "B_D0" "B_A9" "B_A0" "B_D1"
+    "B_IOR" "B_A13" "B_A12" "B_D3" "B_A10" "unconnected-(J1-~{DACK2}-Pad26)" "P1_L" "P1_A"
+    "unconnected-(J9-Pad5)" "P2_R" "P2_L" "~{RESET}" "IRQ4" "IRQ6" "B_~{NMI}" "B_CLK"
+    "IRQ7" "unconnected-(J1-+12V-Pad9)" "unconnected-(J1--12V-Pad7)" "IRQ3" "IRQ5" "IRQ2" "unconnected-(J1--5V-Pad5)" "P2_U"
+    "unconnected-(J10-Pad5)" "P2_B" "P2_A" "P2_D" "R~{W}" "IOW" "Net-(P2-Pin_3)" "Net-(P2-Pin_2)"
+    "Net-(P2-Pin_1)" "Net-(RN2-R3)" "~{IRQ}" "unconnected-(U1-Pad6)" "unconnected-(U1-Pad4)" "unconnected-(U1-Pad5)" "USERA_4" "USERB_0"
+    "A2" "USERB_4" "unconnected-(U2-PA5-Pad7)" "D6" "D7" "A0" "D0" "D1"
+    "USERB_6" "Net-(RN2-R7)" "Net-(RN2-R8)" "Net-(RN2-R5)" "Net-(RN2-R4)" "Net-(RN2-R6)" "unconnected-(RN2-R1-Pad2)" "unconnected-(RN2-R2-Pad3)"
+    "unconnected-(RN3-R8-Pad9)" "unconnected-(RN3-R7-Pad8)" "D4" "D3" "RESET" "USERB_3" "USERB_5" "unconnected-(U2-CB1-Pad18)"
+    "unconnected-(U1-Pad12)" "unconnected-(U1-Pad11)" "unconnected-(U1-Pad10)" "unconnected-(U1-Pad13)" "Net-(U7-G)" "USERB_1" "unconnected-(U1-Pad9)" "unconnected-(U2-PA0-Pad2)"
+    "unconnected-(U1-Pad8)" "unconnected-(U2-CA2-Pad39)" "USERA_3" "BoardSelect" "unconnected-(U2-PA6-Pad8)" "unconnected-(U2-PA1-Pad3)" "D5" "unconnected-(U2-CB2-Pad19)"
+    "USERB_7" "unconnected-(U2-CA1-Pad40)" "USERB_2" "unconnected-(U2-PA7-Pad9)" "A3" "D2" "A1" "USERA_2"
+    "unconnected-(U4-I3b-Pad17)" "IOR" "unconnected-(U4-O3b-Pad3)" "unconnected-(U4-I2b-Pad15)" "unconnected-(U4-O2b-Pad5)" "unconnected-(U5-Pad11)" "unconnected-(U5-Pad8)" "unconnected-(U5-Pad12)"
+    "unconnected-(U5-Pad13)" "unconnected-(U5-Pad4)" "unconnected-(U5-Pad10)" "unconnected-(U5-Pad9)" "unconnected-(U5-Pad3)" "unconnected-(U25-NC-Pad5)" "unconnected-(U25-IOA6-Pad15)" "unconnected-(U25-~{SEL}-Pad26)"
+    "unconnected-(U25-IOA7-Pad14)" "unconnected-(U25-IOB7-Pad6)" "unconnected-(U25-IOB6-Pad7)" "unconnected-(U25-TEST1-Pad39)" "unconnected-(U25-NC-Pad2)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "POWER"
+    "VCC" "GND"
+    (clearance_class "default")
+    (via_rule "default")
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
