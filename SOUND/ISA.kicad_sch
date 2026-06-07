@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ISA SOUND")
-		(date "2026-03-22")
-		(rev "v0.9")
+		(date "2026-05-29")
+		(rev "v0.96")
 		(company "DAN WERNER")
 	)
 	(lib_symbols
@@ -1629,6 +1629,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1856,6 +1981,12 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 60.96 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a24db75-423d-453d-b09d-6a0536598bc7")
+	)
 	(no_connect
 		(at 87.63 68.58)
 		(uuid "0005a6c1-af04-4e74-b2e8-f73b73aa3d76")
@@ -1889,6 +2020,10 @@
 		(uuid "1e10ce78-e204-4f0b-9441-39354255f597")
 	)
 	(no_connect
+		(at 87.63 109.22)
+		(uuid "1e439cd1-5415-4d51-8060-9d583eca8dd2")
+	)
+	(no_connect
 		(at 52.07 66.04)
 		(uuid "1fb08405-cf71-4b7a-8996-cf4b806b6ff6")
 	)
@@ -1919,6 +2054,10 @@
 	(no_connect
 		(at 52.07 81.28)
 		(uuid "8d6f813f-d141-48f6-a3e1-37176660186a")
+	)
+	(no_connect
+		(at 87.63 111.76)
+		(uuid "8edfdb67-1c59-4196-abf6-84b56f74d72d")
 	)
 	(no_connect
 		(at 52.07 58.42)
@@ -2054,7 +2193,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 144.78) (xy 62.23 144.78)
+			(xy 59.69 144.78) (xy 60.96 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2184,6 +2323,26 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 144.78) (xy 62.23 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757811f0-955f-4dda-b48b-93de91728c44")
+	)
+	(wire
+		(pts
+			(xy 60.96 144.78) (xy 60.96 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75d4c7ba-27ec-4dcd-891d-70275b7811e9")
+	)
+	(wire
+		(pts
 			(xy 87.63 111.76) (xy 91.44 111.76)
 		)
 		(stroke
@@ -2261,6 +2420,16 @@
 			(type default)
 		)
 		(uuid "8df356dd-1151-41f7-ab00-8a117dfb9937")
+	)
+	(wire
+		(pts
+			(xy 60.96 154.94) (xy 60.96 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9417ac88-196a-4827-bc0d-6b1d410fb3b2")
 	)
 	(wire
 		(pts
@@ -2497,7 +2666,7 @@
 		(at 91.44 76.2 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -2518,7 +2687,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify right)
 		)
@@ -2540,7 +2709,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify right)
 		)
@@ -2561,7 +2730,7 @@
 		(at 91.44 99.06 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -2581,7 +2750,7 @@
 		(at 91.44 73.66 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -2601,7 +2770,7 @@
 		(at 91.44 71.12 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -2621,7 +2790,7 @@
 		(at 91.44 91.44 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -2642,7 +2811,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify right)
 		)
@@ -2664,7 +2833,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -2686,7 +2855,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify right)
 		)
@@ -2707,7 +2876,7 @@
 		(at 91.44 53.34 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -2728,7 +2897,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify right)
 		)
@@ -2749,7 +2918,7 @@
 		(at 91.44 78.74 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -2769,7 +2938,7 @@
 		(at 91.44 101.6 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -2789,7 +2958,7 @@
 		(at 91.44 81.28 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -2810,7 +2979,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify right)
 		)
@@ -2831,7 +3000,7 @@
 		(at 91.44 50.8 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -2852,7 +3021,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify right)
 		)
@@ -2873,7 +3042,7 @@
 		(at 91.44 116.84 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -2893,7 +3062,7 @@
 		(at 81.28 144.78 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -2914,7 +3083,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify right)
 		)
@@ -2935,7 +3104,7 @@
 		(at 91.44 48.26 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -2955,7 +3124,7 @@
 		(at 91.44 106.68 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -2975,7 +3144,7 @@
 		(at 91.44 93.98 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -2996,7 +3165,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify right)
 		)
@@ -3017,7 +3186,7 @@
 		(at 91.44 111.76 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -3038,7 +3207,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify right)
 		)
@@ -3059,7 +3228,7 @@
 		(at 91.44 83.82 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -3079,7 +3248,7 @@
 		(at 91.44 43.18 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -3099,7 +3268,7 @@
 		(at 91.44 88.9 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -3120,7 +3289,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify right)
 		)
@@ -3141,7 +3310,7 @@
 		(at 91.44 60.96 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -3161,7 +3330,7 @@
 		(at 91.44 55.88 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -3182,7 +3351,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify right)
 		)
@@ -3203,7 +3372,7 @@
 		(at 91.44 45.72 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -3223,7 +3392,7 @@
 		(at 49.53 88.9 180)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify right)
 		)
@@ -3243,7 +3412,7 @@
 		(at 91.44 96.52 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -3264,7 +3433,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify right)
 		)
@@ -3285,7 +3454,7 @@
 		(at 91.44 104.14 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -3305,7 +3474,7 @@
 		(at 91.44 86.36 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -3325,7 +3494,7 @@
 		(at 59.69 144.78 180)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify right)
 		)
@@ -3345,7 +3514,7 @@
 		(at 91.44 68.58 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -3365,7 +3534,7 @@
 		(at 91.44 58.42 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -3385,7 +3554,7 @@
 		(at 91.44 40.64 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -3405,7 +3574,7 @@
 		(at 49.53 43.18 180)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify right)
 		)
@@ -3425,7 +3594,7 @@
 		(at 91.44 114.3 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -3445,7 +3614,7 @@
 		(at 91.44 109.22 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.15 1.15)
 			)
 			(justify left)
 		)
@@ -3457,6 +3626,72 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "495f274c-99ff-490d-9643-7635242c58fd")
+		(property "Reference" "#PWR019"
+			(at 60.96 157.48 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 159.258 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae646de2-ca18-44bd-8bc7-e3cffc7ce1bb")
+		)
+		(instances
+			(project "SOUND"
+				(path "/8d0f25e7-72aa-42f1-b96d-60e778d112e0/2e54f558-6be6-45f0-89e1-ea204c8ee7c2"
+					(reference "#PWR019")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3586,6 +3821,73 @@
 			(project "MULTIIO"
 				(path "/8d0f25e7-72aa-42f1-b96d-60e778d112e0/2e54f558-6be6-45f0-89e1-ea204c8ee7c2"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 60.96 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "756232ba-baea-4b1d-982f-180a0c41ebd1")
+		(property "Reference" "R1"
+			(at 62.992 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1KΩ"
+			(at 58.42 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:STD_DDW_RESISTOR"
+			(at 60.96 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 60.96 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "918bd4e1-0811-42c7-802e-6b3ccf809258")
+		)
+		(pin "2"
+			(uuid "cf9ef8f4-14b4-4f6f-a458-fa6f9f4ebcb9")
+		)
+		(instances
+			(project "SOUND"
+				(path "/8d0f25e7-72aa-42f1-b96d-60e778d112e0/2e54f558-6be6-45f0-89e1-ea204c8ee7c2"
+					(reference "R1")
 					(unit 1)
 				)
 			)
