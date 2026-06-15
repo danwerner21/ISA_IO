@@ -3817,48 +3817,48 @@ LOAD linker stubs
  .debug_abbrev  0x00000000000076a8      0x2a1 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-freer.o)
  .debug_abbrev  0x0000000000007949      0x2d0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reent.o)
 
-.debug_loc      0x0000000000000000    0x20fab
+.debug_loc      0x0000000000000000    0x20f8f
  .debug_loc     0x0000000000000000       0x8c CMakeFiles/vga.dir/main.c.o
  .debug_loc     0x000000000000008c      0x508 CMakeFiles/vga.dir/abus.c.o
  .debug_loc     0x0000000000000594       0x37 CMakeFiles/vga.dir/config.c.o
  .debug_loc     0x00000000000005cb      0x17c CMakeFiles/vga.dir/device_regs.c.o
  .debug_loc     0x0000000000000747      0xd26 CMakeFiles/vga.dir/render_hires.c.o
  .debug_loc     0x000000000000146d      0x61c CMakeFiles/vga.dir/render_lores.c.o
- .debug_loc     0x0000000000001a89      0xb21 CMakeFiles/vga.dir/render_text.c.o
- .debug_loc     0x00000000000025aa     0x138f CMakeFiles/vga.dir/vga.c.o
- .debug_loc     0x0000000000003939     0x11f5 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
- .debug_loc     0x0000000000004b2e       0x4d CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/common/pico_sync/lock_core.c.o
- .debug_loc     0x0000000000004b7b     0x1b8e CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/common/pico_sync/mutex.c.o
- .debug_loc     0x0000000000006709     0x401c CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/common/pico_time/time.c.o
- .debug_loc     0x000000000000a725     0x2541 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
- .debug_loc     0x000000000000cc66      0x6c7 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/common/hardware_claim/claim.c.o
- .debug_loc     0x000000000000d32d      0x154 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
- .debug_loc     0x000000000000d481       0xb5 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_loc     0x000000000000d536     0x1b3c CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
- .debug_loc     0x000000000000f072     0x2956 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
- .debug_loc     0x00000000000119c8     0x31ea CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_loc     0x0000000000014bb2      0x28f CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
- .debug_loc     0x0000000000014e41       0x57 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_loc     0x0000000000014e98      0x4a4 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_loc     0x000000000001533c       0x71 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_loc     0x00000000000153ad       0xbc CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
- .debug_loc     0x0000000000015469      0x11c CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_loc     0x0000000000015585       0xa7 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_loc     0x000000000001562c       0x44 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
- .debug_loc     0x0000000000015670       0x82 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
- .debug_loc     0x00000000000156f2      0x313 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
- .debug_loc     0x0000000000015a05     0x3c08 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .debug_loc     0x000000000001960d      0x5b1 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_loc     0x0000000000019bbe     0x1565 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_loc     0x000000000001b123      0x429 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
- .debug_loc     0x000000000001b54c      0xbb0 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
- .debug_loc     0x000000000001c0fc     0x378f CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
- .debug_loc     0x000000000001f88b       0x64 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-malloc.o)
- .debug_loc     0x000000000001f8ef      0xef0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-mallocr.o)
- .debug_loc     0x00000000000207df       0x79 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-sbrkr.o)
- .debug_loc     0x0000000000020858       0x90 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
- .debug_loc     0x00000000000208e8      0x4e3 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-freer.o)
- .debug_loc     0x0000000000020dcb      0x1e0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reent.o)
+ .debug_loc     0x0000000000001a89      0xb05 CMakeFiles/vga.dir/render_text.c.o
+ .debug_loc     0x000000000000258e     0x138f CMakeFiles/vga.dir/vga.c.o
+ .debug_loc     0x000000000000391d     0x11f5 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+ .debug_loc     0x0000000000004b12       0x4d CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_loc     0x0000000000004b5f     0x1b8e CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_loc     0x00000000000066ed     0x401c CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/common/pico_time/time.c.o
+ .debug_loc     0x000000000000a709     0x2541 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_loc     0x000000000000cc4a      0x6c7 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_loc     0x000000000000d311      0x154 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_loc     0x000000000000d465       0xb5 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_loc     0x000000000000d51a     0x1b3c CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_loc     0x000000000000f056     0x2956 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+ .debug_loc     0x00000000000119ac     0x31ea CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_loc     0x0000000000014b96      0x28f CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_loc     0x0000000000014e25       0x57 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_loc     0x0000000000014e7c      0x4a4 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_loc     0x0000000000015320       0x71 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_loc     0x0000000000015391       0xbc CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_loc     0x000000000001544d      0x11c CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_loc     0x0000000000015569       0xa7 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_loc     0x0000000000015610       0x44 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+ .debug_loc     0x0000000000015654       0x82 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+ .debug_loc     0x00000000000156d6      0x313 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+ .debug_loc     0x00000000000159e9     0x3c08 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_loc     0x00000000000195f1      0x5b1 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_loc     0x0000000000019ba2     0x1565 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_loc     0x000000000001b107      0x429 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
+ .debug_loc     0x000000000001b530      0xbb0 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+ .debug_loc     0x000000000001c0e0     0x378f CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+ .debug_loc     0x000000000001f86f       0x64 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-malloc.o)
+ .debug_loc     0x000000000001f8d3      0xef0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-mallocr.o)
+ .debug_loc     0x00000000000207c3       0x79 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-sbrkr.o)
+ .debug_loc     0x000000000002083c       0x90 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+ .debug_loc     0x00000000000208cc      0x4e3 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-freer.o)
+ .debug_loc     0x0000000000020daf      0x1e0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reent.o)
 
 .debug_aranges  0x0000000000000000     0x13b8
  .debug_aranges
@@ -4028,7 +4028,7 @@ LOAD linker stubs
  .debug_ranges  0x000000000000a780     0x1540 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
  .debug_ranges  0x000000000000bcc0       0x50 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-mallocr.o)
 
-.debug_line     0x0000000000000000    0x1cf76
+.debug_line     0x0000000000000000    0x1cf70
  .debug_line    0x0000000000000000      0x34d CMakeFiles/vga.dir/main.c.o
  .debug_line    0x000000000000034d      0x752 CMakeFiles/vga.dir/abus.c.o
  .debug_line    0x0000000000000a9f       0xa0 CMakeFiles/vga.dir/buffers.c.o
@@ -4038,56 +4038,56 @@ LOAD linker stubs
  .debug_line    0x000000000000114a       0xdf CMakeFiles/vga.dir/render.c.o
  .debug_line    0x0000000000001229      0xb11 CMakeFiles/vga.dir/render_hires.c.o
  .debug_line    0x0000000000001d3a      0x7ff CMakeFiles/vga.dir/render_lores.c.o
- .debug_line    0x0000000000002539      0x711 CMakeFiles/vga.dir/render_text.c.o
- .debug_line    0x0000000000002c4a       0xb2 CMakeFiles/vga.dir/textfont/iie_us_enhanced.c.o
- .debug_line    0x0000000000002cfc       0xab CMakeFiles/vga.dir/textfont/textfont.c.o
- .debug_line    0x0000000000002da7     0x1454 CMakeFiles/vga.dir/vga.c.o
- .debug_line    0x00000000000041fb     0x14e4 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
- .debug_line    0x00000000000056df      0x220 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/common/pico_sync/lock_core.c.o
- .debug_line    0x00000000000058ff     0x19c6 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/common/pico_sync/mutex.c.o
- .debug_line    0x00000000000072c5     0x2eb2 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/common/pico_time/time.c.o
- .debug_line    0x000000000000a177     0x1c93 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
- .debug_line    0x000000000000be0a      0x1e0 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
- .debug_line    0x000000000000bfea      0x865 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/common/hardware_claim/claim.c.o
- .debug_line    0x000000000000c84f      0x414 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
- .debug_line    0x000000000000cc63      0x2ec CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_line    0x000000000000cf4f     0x15b0 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
- .debug_line    0x000000000000e4ff     0x1c0d CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
- .debug_line    0x000000000001010c     0x1bc8 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_line    0x0000000000011cd4      0x466 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
- .debug_line    0x000000000001213a      0x276 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_line    0x00000000000123b0      0x308 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_line    0x00000000000126b8      0x2a1 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_line    0x0000000000012959      0x24a CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
- .debug_line    0x0000000000012ba3      0x470 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_line    0x0000000000013013      0x45c CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_line    0x000000000001346f      0x130 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
- .debug_line    0x000000000001359f      0x2d5 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
- .debug_line    0x0000000000013874      0x426 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
- .debug_line    0x0000000000013c9a      0x321 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
- .debug_line    0x0000000000013fbb      0x6a1 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
- .debug_line    0x000000000001465c      0x3e0 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
- .debug_line    0x0000000000014a3c      0x27c CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
- .debug_line    0x0000000000014cb8      0x1c7 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
- .debug_line    0x0000000000014e7f      0x3b5 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
- .debug_line    0x0000000000015234       0xbd CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
- .debug_line    0x00000000000152f1      0x154 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .debug_line    0x0000000000015445     0x17c1 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .debug_line    0x0000000000016c06       0xc2 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
- .debug_line    0x0000000000016cc8      0x76c CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_line    0x0000000000017434     0x140e CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_line    0x0000000000018842      0x64c CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
- .debug_line    0x0000000000018e8e      0x8c5 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
- .debug_line    0x0000000000019753     0x216a CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
- .debug_line    0x000000000001b8bd       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_line    0x000000000001b91d       0xe4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-impure.o)
- .debug_line    0x000000000001ba01      0x165 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-malloc.o)
- .debug_line    0x000000000001bb66      0x8e2 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-mallocr.o)
- .debug_line    0x000000000001c448      0x13e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-mlock.o)
- .debug_line    0x000000000001c586      0x183 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-sbrkr.o)
- .debug_line    0x000000000001c709      0x172 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
- .debug_line    0x000000000001c87b      0x47d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-freer.o)
- .debug_line    0x000000000001ccf8      0x27e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reent.o)
+ .debug_line    0x0000000000002539      0x70b CMakeFiles/vga.dir/render_text.c.o
+ .debug_line    0x0000000000002c44       0xb2 CMakeFiles/vga.dir/textfont/iie_us_enhanced.c.o
+ .debug_line    0x0000000000002cf6       0xab CMakeFiles/vga.dir/textfont/textfont.c.o
+ .debug_line    0x0000000000002da1     0x1454 CMakeFiles/vga.dir/vga.c.o
+ .debug_line    0x00000000000041f5     0x14e4 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+ .debug_line    0x00000000000056d9      0x220 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_line    0x00000000000058f9     0x19c6 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_line    0x00000000000072bf     0x2eb2 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/common/pico_time/time.c.o
+ .debug_line    0x000000000000a171     0x1c93 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_line    0x000000000000be04      0x1e0 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_line    0x000000000000bfe4      0x865 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_line    0x000000000000c849      0x414 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_line    0x000000000000cc5d      0x2ec CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_line    0x000000000000cf49     0x15b0 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_line    0x000000000000e4f9     0x1c0d CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+ .debug_line    0x0000000000010106     0x1bc8 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_line    0x0000000000011cce      0x466 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_line    0x0000000000012134      0x276 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_line    0x00000000000123aa      0x308 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_line    0x00000000000126b2      0x2a1 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_line    0x0000000000012953      0x24a CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_line    0x0000000000012b9d      0x470 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_line    0x000000000001300d      0x45c CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_line    0x0000000000013469      0x130 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+ .debug_line    0x0000000000013599      0x2d5 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+ .debug_line    0x000000000001386e      0x426 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+ .debug_line    0x0000000000013c94      0x321 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+ .debug_line    0x0000000000013fb5      0x6a1 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+ .debug_line    0x0000000000014656      0x3e0 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+ .debug_line    0x0000000000014a36      0x27c CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+ .debug_line    0x0000000000014cb2      0x1c7 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+ .debug_line    0x0000000000014e79      0x3b5 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+ .debug_line    0x000000000001522e       0xbd CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+ .debug_line    0x00000000000152eb      0x154 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .debug_line    0x000000000001543f     0x17c1 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_line    0x0000000000016c00       0xc2 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+ .debug_line    0x0000000000016cc2      0x76c CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_line    0x000000000001742e     0x140e CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_line    0x000000000001883c      0x64c CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
+ .debug_line    0x0000000000018e88      0x8c5 CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+ .debug_line    0x000000000001974d     0x216a CMakeFiles/vga.dir/home/dwerner/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+ .debug_line    0x000000000001b8b7       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x000000000001b917       0xe4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-impure.o)
+ .debug_line    0x000000000001b9fb      0x165 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-malloc.o)
+ .debug_line    0x000000000001bb60      0x8e2 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-mallocr.o)
+ .debug_line    0x000000000001c442      0x13e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-mlock.o)
+ .debug_line    0x000000000001c580      0x183 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-sbrkr.o)
+ .debug_line    0x000000000001c703      0x172 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+ .debug_line    0x000000000001c875      0x47d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-freer.o)
+ .debug_line    0x000000000001ccf2      0x27e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-reent.o)
 
 .debug_str      0x0000000000000000     0x6d00
  .debug_str     0x0000000000000000      0x42c CMakeFiles/vga.dir/main.c.o

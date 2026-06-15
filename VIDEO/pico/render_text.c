@@ -85,8 +85,8 @@ void render_text_line(unsigned int line) {
                 sl_pos++;
                 bits >>= 2;
                 // 3
-                sl->data[sl_pos] = (((bits & 0x02) ? fg : bg) << 16) |
-                                       ((bits & 0x01) ? fg1 : bg1);
+                sl->data[sl_pos] = (((bits & 0x02) ? fg1 : bg1) << 16) |
+                                       ((bits & 0x01) ? fg : bg);
                 sl_pos++;
                 bits >>= 2;
                 // 4
